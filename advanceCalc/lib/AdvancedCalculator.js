@@ -22,9 +22,21 @@ function basic() {
 var operator = prompt("Enter a operator:");
 var number2 = parseFloat(prompt("Enter second number:"));
 
-if (operator == "+") {
-  addTwonumbers()
+if (operator == "+")
+  {
+  alert(addTwonumbers());
+  }
 
-}
-
+if (operator == "-")
+  {
+  alert(Subnumbers());
+  }
+if (operator == "*")
+  {
+  alert(Multinumbers());
+  }
+if (operator == "/")
+  {
+  alert(Dividenumbers());
+  }
 }
