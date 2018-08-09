@@ -24,7 +24,7 @@ var number2 = parseFloat(prompt("Enter second number:"));
 
 if (operator == "+")
   {
-  alert(addTwonumbers());
+  alert(addTwonumbers(number1,number2));
   }
 
 if (operator == "-")
